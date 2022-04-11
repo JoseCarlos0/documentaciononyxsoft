@@ -6,9 +6,9 @@ info:
 #paths: {}
 servers:
   - description: Direccion pruebas AWS
-    url: https://54.210.232.103 #/v1/sync/tasks/:taskID
+    url: http://54.210.232.103 #/v1/sync/tasks/:taskID
   - description: Direccion pruebas Colombia
-    url: https://apifluxuadev.onyxsoft.co:8087 #/v1/sync/tasks/:taskID
+    url: http://apifluxuadev.onyxsoft.co:8087 #/v1/sync/tasks/:taskID
     
 paths:
   /v1/sync/tasks/cdc4460f-2f96-4046-9857-59d92bc96b7f:
