@@ -5,15 +5,10 @@ info:
   description: ''
 #paths: {}
 servers:
-  # Added by API Auto Mocking Plugin
-  # Added by API Auto Mocking Plugin
-  # description: The number of items to skip before starting to collect the result set
-  # Added by API Auto Mocking Plugin
-
-  # Added by API Auto Mocking Plugin
-  - description: Direccion pruebas España
+  - description: Direccion pruebas AWS
+    url: https://54.210.232.103 #/v1/sync/tasks/:taskID
+  - description: Direccion pruebas Colombia
     url: https://apifluxuadev.onyxsoft.co:8087 #/v1/sync/tasks/:taskID
-
     
 paths:
   /v1/sync/tasks/cdc4460f-2f96-4046-9857-59d92bc96b7f:
@@ -35,7 +30,7 @@ paths:
       - "login v3"
       summary: "Logear"
       requestBody:
-        description: ""
+        description: "PAGE: IW_LOGIN"
         content:
           application/json:
             schema:
